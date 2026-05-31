@@ -105,7 +105,7 @@ Mreža sadrži **8 čvorova** i **8 bridova**. Stupanj čvora (broj veza po liku
 | Wanda Maximoff | 1 |
 | Clint Barton | 1 |
 
-![Graf]([../marvel_network.png](https://github.com/leaselihar-oss/Marvel-mind-in-network/blob/a6300e779c9265549061e9a4d8cf5bcb19fa067f/marvel_network%20(1).png))
+![Graf mreže psiholoških odnosa Marvel likova](https://raw.githubusercontent.com/leaselihar-oss/Marvel-mind-in-network/main/marvel_network.png)
 
 *Slika 1. Force-directed (Spring Layout) graf psiholoških odnosa između 8 Marvel likova. Boje bridova: crvena = rivalstvo, plava = prijateljstvo, zelena = mentorstvo, narančasta = tenzija.*
 
