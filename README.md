@@ -141,22 +141,6 @@ Posebno je zanimljiv slučaj Wande Maximoff i Tonyja Starka kao "negativnog prim
 **Zaključak:** Načelo sličnosti — tendencija da se povežu oni koji su si slični — nije samo sociološki pojam, nego i narativni alat koji MCU koristi za izgradnju koherentnih savezničkih struktura. Trauma predviđa savezništvo.
 
 ---
-
-## 6. Tehnički okvir i tok podataka
-
-Aplikacija je izgrađena kao React + TypeScript SPA s D3.js vizualizacijom i Gemini AI integracijom.
-
-```
-[marvel_data.ts]
-      ↓  characters[] + relationships[]
-[NetworkGraph.tsx — D3.js v7 Spring Layout]
-      ↓  interaktivni graf
-[DetailsPanel.tsx — psihološki profili po kliku]
-      ↓
-[AiConsultation.tsx — Gemini 3.5 Flash API]
-      ↓  psihološke analize u stvarnom vremenu
-[Korisničko sučelje]
-```
 ---
 
 ## Literatura
