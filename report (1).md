@@ -154,42 +154,6 @@ Zaključno, mrežna analiza potvrđuje da **homofilija temeljena na traumi nije 
 
 ---
 
-## 6. Tehnološki Okvir i Protok Podataka (App Data Flow)
-
-Aplikacija je izgrađena kao React + TypeScript SPA s D3.js vizualizacijom i Gemini AI integracijom za psihološke konzultacije u realnom vremenu.
-
-```
-[marvel_data.ts]
-    ↓ characters[] + relationships[]
-[NetworkGraph.tsx — D3.js v7 Spring Layout]
-    ↓ force-directed vizualizacija
-[DetailsPanel.tsx — psihološki profili]
-    ↓ interaktivni odabir čvora/brida
-[AiConsultation.tsx — Gemini 3.5 Flash API]
-    ↓ psihološke analize u realnom vremenu
-[Korisničko sučelje]
-```
-
-Struktura repozitorija:
-
-```
-/
-├── report/
-│   └── report.md              ← ovaj dokument
-├── src/
-│   ├── data/
-│   │   └── marvel_data.ts     ← podaci o likovima i vezama
-│   ├── components/
-│   │   ├── NetworkGraph.tsx   ← D3.js vizualizacija
-│   │   ├── DetailsPanel.tsx   ← prikaz profila
-│   │   └── AiConsultation.tsx ← AI konzultacije
-│   └── App.tsx
-├── marvel_network.png         ← statični export mreže
-└── README.md
-```
-
----
-
 ## Literatura (References)
 
 - McPherson, M., Smith-Lovin, L., & Cook, J. M. (2001). Birds of a feather: Homophily in social networks. *Annual Review of Sociology*, 27, 415–444.
