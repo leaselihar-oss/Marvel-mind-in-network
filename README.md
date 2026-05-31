@@ -1,7 +1,6 @@
 # Marvel Mind Network 🧠🛡️
 
-<img width="941" height="694" alt="image" src="https://github.com/user-attachments/assets/9f7c2947-8ca3-418f-8f2a-d6cced36ca20" />
- *(Slika sustava: S.H.I.E.L.D. Psihološka Analiza)*
+*(Slika sustava: S.H.I.E.L.D. Psihološka Analiza)*
 
 Dobrodošli u **Marvel Mind Network**, interaktivni sustav za analizu i vizualizaciju psiholoških profila i društvene dinamike unutar Marvelovog univerzuma. Ovaj projekt simulira napredni S.H.I.E.L.D. terminal dizajniran za dubinsko istraživanje trauma, kompleksa i motivacija koje pokreću naše omiljene heroje.
 
@@ -38,5 +37,5 @@ Aplikacija se ne fokusira samo na moći, već na **unutarnju borbu**:
 - [ ] **Proširena Baza**: Dodavanje anti-heroja i zlikovaca (Thanos, Loki, Magneto) kako bi se analizirala "tamna strana" dinamike.
 
 ---
-
+<img width="941" height="694" alt="image" src="https://github.com/user-attachments/assets/9f7c2947-8ca3-418f-8f2a-d6cced36ca20" />
 *Razvijeno s pažnjom prema detaljima i dubokim poštovanjem prema Marvelovoj povijesti.*
