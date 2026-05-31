@@ -152,6 +152,4 @@ Posebno je zanimljiv slučaj Wande Maximoff i Tonyja Starka kao "negativnog prim
 
 ---
 
-*Predmet: Seminar: Umjetna inteligencija i društvo*
-*Datum: svibanj 2026.*
-*Alat za vizualizaciju: D3.js v7, NetworkX, React + TypeScript*
+
