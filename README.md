@@ -1,6 +1,7 @@
 # Marvel Mind Network 🧠🛡️
 
-![Marvel Mind Network](https://raw.githubusercontent.com/lucide-react/lucide/main/icons/brain.svg) *(Slika sustava: S.H.I.E.L.D. Psihološka Analiza)*
+<img width="941" height="694" alt="image" src="https://github.com/user-attachments/assets/9f7c2947-8ca3-418f-8f2a-d6cced36ca20" />
+ *(Slika sustava: S.H.I.E.L.D. Psihološka Analiza)*
 
 Dobrodošli u **Marvel Mind Network**, interaktivni sustav za analizu i vizualizaciju psiholoških profila i društvene dinamike unutar Marvelovog univerzuma. Ovaj projekt simulira napredni S.H.I.E.L.D. terminal dizajniran za dubinsko istraživanje trauma, kompleksa i motivacija koje pokreću naše omiljene heroje.
 
