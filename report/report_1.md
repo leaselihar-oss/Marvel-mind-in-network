@@ -1,8 +1,7 @@
 # Mreža psiholoških odnosa Marvel likova: analiza načela sličnosti
 
-**Autor:** AI Coding Agent  
+**Autor:** Lea Selihar
 **Datum:** 11. svibnja 2026.  
-**Predmet:** Digitalna humanistička znanost i Psihologija narativa  
 
 ---
 
@@ -42,6 +41,7 @@ Aplikacija vizualizira ovu vezu kao "rivalstvo" kroz koju se prelamaju svi ostal
 
 ### Rezultat vizualizacije
 Grafički prikaz uspješno locira "izolirane" subjekte (poput Wande Maximoff u ranim stadijima) i "sidrišne" članove (poput Clinta Bartona), čime se potvrđuje hipoteza da su emocionalno stabilniji članovi ključni za koheziju tima unatoč manjku "super-moći".
+<img width="1371" height="744" alt="image" src="https://github.com/user-attachments/assets/74fb3d0b-7d86-406a-95fa-ca656d22501d" />
 
 ---
 
