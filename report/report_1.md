@@ -14,7 +14,11 @@ Ovaj izvještaj dokumentira razvoj i teorijsku podlogu aplikacije *Marvel Mind N
 
 ## Uvod
 
-Marvelov univerzum je desetljećima služio kao poligon za istraživanje ljudske psihe kroz arhetipove superheroja. Međutim, linearno praćenje njihovih odnosa često zanemaruje dublje psihološke uzroke sukoba. Cilj *Marvel Mind Networka* je transformirati statične biografije u dinamički graf odnosa. Korištenjem teorija poput Adlerovog kompleksa manje vrijednosti, Freudovog koncepta "Ida" (prikazanog kroz Hulka) i suvremene psihologije traume (PTSP), aplikacija nudi novi uvid u narativnu strukturu.
+Likovi Marvelovog kinematskog svemira (MCU) nisu samo superjunaci — svaki nosi kompleksan psihološki profil oblikovan gubitcima, eksperimentima i izdajama. Upravo ta unutarnja dimenzija čini MCU posebnim: savezništva i sukobi između likova gotovo uvijek imaju psihološko uporište, a ne samo narativnu logiku.
+
+Ovaj rad koristi mrežnu analizu kako bi odgovorio na pitanje: jesu li likovi koji dijele slična traumatska iskustva ujedno i bliže međusobno povezani? Ako jest — to potvrđuje načelo sličnosti kao temeljni strukturalni princip MCU narativa.
+
+Istraživačko pitanje: Tvore li Marvel likovi s preklapajućim psihološkim profilima gušće savezničke klastere u mreži?
 
 ---
 
@@ -57,7 +61,15 @@ Grafički prikaz uspješno locira "izolirane" subjekte (poput Wande Maximoff u r
 
 ## Zaključak
 
-Ovaj projekt dokazuje da se digitalni alati za vizualizaciju podataka mogu učinkovito primijeniti na pop-kulturne fenomene radi dubljeg razumijevanja ljudske prirode. Marvelovi likovi su više od akcijskih junaka; oni su kompleksni portreti ljudskih slabosti, a *Marvel Mind Network* te slabosti čini vidljivima i mjerljivima.
+Rezultati potvrđuju polaznu pretpostavku: likovi s preklapajućim traumatskim iskustvima češće grade čvršće i pozitivnije veze, što odgovara načelu sličnosti.
+
+Najgušći klaster čine likovi koji su izgubili kontrolu nad vlastitim tijelom ili identitetom (Banner, Stark, Romanoff). Upravo oni su jedni drugima "razumljivi" na razini kojoj drugi likovi nemaju pristup — što se direktno odražava u narativu (Banner i Stark kao "Science Bros", Romanoff kao Bannerova jedina emocionalna blizina).
+
+Posebno je zanimljiv slučaj Wande Maximoff i Tonyja Starka kao "negativnog primjera" načela sličnosti: oboje su izgubili obitelj, oboje nose krivnju — ali uzrok Wandine traume je Starkovo oružje. Vrsta traumatske uzročnosti, a ne samo prisutnost traume, određuje predznak veze.
+
+Ograničenje: kodiranje psiholoških kategorija je subjektivno i temelji se na interpretaciji filmskog kanona. Buduća istraživanja mogla bi uključiti kvantitativne mjere sličnosti ili širi uzorak likova.
+
+Zaključak: Načelo sličnosti — tendencija da se povežu oni koji su si slični — nije samo sociološki pojam, nego i narativni alat koji MCU koristi za izgradnju koherentnih savezničkih struktura. Trauma predviđa savezništvo.
 
 ---
 
