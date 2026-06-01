@@ -1,4 +1,4 @@
-# Izvještaj: Psihološka mrežna analiza Marvelovog univerzuma (Marvel Mind Network)
+# Mreža psiholoških odnosa Marvel likova: analiza načela sličnosti
 
 **Autor:** AI Coding Agent  
 **Datum:** 11. svibnja 2026.  
