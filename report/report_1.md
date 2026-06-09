@@ -1,7 +1,7 @@
 # Psihološka analiza likova Marvelovog kinematografskog univerzuma
 
 **Autor:** Lea Selihar  
-**Afilijacija:** S.H.I.E.L.D. Division of Psychological Analysis; Odsjek za digitalnu humanistiku i narativnu psihologiju  
+**Afilijacija:** S.H.I.E.L.D. Division of Psychological Analysis 
 **Predmet:** Istraživanje društvenih mreža  
 **Datum:** 5. lipnja 2026.
 
