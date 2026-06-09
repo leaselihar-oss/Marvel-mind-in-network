@@ -9,6 +9,7 @@ interface GraphLink extends d3.SimulationLinkDatum<GraphNode> {
   type: string;
   description: string;
   dynamic: string;
+  communicationStrength?: number;
 }
 
 interface NetworkGraphProps {
@@ -17,6 +18,7 @@ interface NetworkGraphProps {
   onNodeClick: (char: Character) => void;
   onLinkClick: (rel: Relationship) => void;
   selectedNodeId?: string;
+  selectedClusterId?: string;
 }
 
 const NetworkGraph: React.FC<NetworkGraphProps> = ({ 
@@ -24,7 +26,8 @@ const NetworkGraph: React.FC<NetworkGraphProps> = ({
   relationships, 
   onNodeClick, 
   onLinkClick,
-  selectedNodeId 
+  selectedNodeId,
+  selectedClusterId
 }) => {
   const svgRef = useRef<SVGSVGElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
@@ -69,9 +72,23 @@ const NetworkGraph: React.FC<NetworkGraphProps> = ({
       .selectAll('line')
       .data(links)
       .enter().append('line')
-      .attr('stroke', '#4b5563')
-      .attr('stroke-width', 2)
-      .attr('stroke-opacity', 0.6)
+      .attr('stroke', d => {
+        if (d.type === 'rivalry') return '#dc2626'; // Red
+        if (d.type === 'tension') return '#eab308'; // Amber
+        if (d.type === 'mentorship') return '#3b82f6'; // Blue
+        if (d.type === 'family') return '#10b981'; // Emerald
+        return '#6b7280'; // Gray (friendship)
+      })
+      .attr('stroke-width', d => d.communicationStrength ? d.communicationStrength * 1.5 : 2)
+      .attr('stroke-opacity', d => {
+        if (!selectedClusterId) return 0.7;
+        
+        // If cluster is selected, check if both endpoints belong to it or at least one
+        const s = typeof d.source === 'object' ? (d.source as GraphNode).cluster : characters.find(c => c.id === d.source)?.cluster;
+        const t = typeof d.target === 'object' ? (d.target as GraphNode).cluster : characters.find(c => c.id === d.target)?.cluster;
+        
+        return (s === selectedClusterId && t === selectedClusterId) ? 0.9 : 0.1;
+      })
       .attr('cursor', 'pointer')
       .on('click', (event, d) => onLinkClick(d as unknown as Relationship));
 
@@ -82,6 +99,10 @@ const NetworkGraph: React.FC<NetworkGraphProps> = ({
       .enter().append('g')
       .attr('cursor', 'pointer')
       .attr('class', 'node-group')
+      .style('opacity', d => {
+        if (!selectedClusterId) return 1;
+        return d.cluster === selectedClusterId ? 1 : 0.2;
+      })
       .call(d3.drag<any, any>()
         .on('start', dragstarted)
         .on('drag', dragged)
@@ -135,7 +156,7 @@ const NetworkGraph: React.FC<NetworkGraphProps> = ({
     return () => {
       simulation.stop();
     };
-  }, [characters, relationships, onNodeClick, onLinkClick, selectedNodeId]);
+  }, [characters, relationships, onNodeClick, onLinkClick, selectedNodeId, selectedClusterId]);
 
   return (
     <div ref={containerRef} className="w-full h-full bg-[#050505] overflow-hidden relative border border-[#1a1a1a]">
