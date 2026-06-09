@@ -138,7 +138,7 @@ Sljedeće faze razvoja projekta uključuju:
 Integracija Gemini LLM API-ja: Implementacija server-side kognitivnog procesora koji će na temelju unesenih traumatoloških parametara predviđati reakcije i buduće dijaloge među likovima.
 Semantička analiza obožavateljskih komentara i scenarija: Automatizirano povlačenje tekstualnih skripti i izračunavanje fluktuacija napetosti u realnom vremenu.
 Analiza "Što-ako" scenarija: Simulacijski modul koji će istraživati kako bi se mrežna kohezija promijenila u slučaju uklanjanja jedne od sidrišnih točaka (primjerice, trajno očuvanje Tonyja Starka nakon događaja u filmu Endgame).
----
+
 
 ## 6. Reference
 
