@@ -103,6 +103,8 @@ Gdje je $w_{ij}$ težina veze (`communicationStrength`) između subjekta $i$ i s
 | #6   | Stephen Strange (Dr. Strange) | 3 | 10 | Mistični čuvar multiverzuma |
 
 Ovi podaci pokazuju da su Tony Stark i Steve Rogers dvije gravitacijske točke cijelog sustava. Njihova visoka centralnost objašnjava zašto je njihov ideološki razdor doveo do raspada cjelokupne organizacijske sheme u događajima popularnog "Građanskog rata" (Civil War).
+<img width="1920" height="864" alt="2026-06-09 (4)" src="https://github.com/user-attachments/assets/1b5ede51-40ea-41d1-86ea-6a467c7e0f4e" />
+
 
 ### 3.2 Analiza klastera i studije slučaja
 
